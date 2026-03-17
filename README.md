@@ -1,3 +1,3 @@
-# Ambient Sound Mixer Template
+# Ambient Sound Mixer
 
-This is the HTML/CSS/Audio only. This is the starting point in the course project. You will add the 6 JS files.
+This is a vanilla JS object-orient-programming practice project from Brad Traversy's online course.
