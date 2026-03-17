@@ -1,5 +1,4 @@
 import { sounds } from './data.js';
-
 class SoundManager {
   constructor() {
     this.audios = new Map();
@@ -14,7 +13,7 @@ class SoundManager {
     sounds.forEach((sound) => {
       try {
         const audio = new Audio();
-        audio.src = `/audio/${sound.file}`;
+        audio.src = `../audio/${sound.file}`;
         audio.loop = true;
         audio.preload = 'metadata';
 
