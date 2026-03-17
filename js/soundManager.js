@@ -13,7 +13,7 @@ class SoundManager {
     sounds.forEach((sound) => {
       try {
         const audio = new Audio();
-        audio.src = `../audio/${sound.file}`;
+        audio.src = `audio/${sound.file}`; //path is relative to the document that uses the script
         audio.loop = true;
         audio.preload = 'metadata';
 
